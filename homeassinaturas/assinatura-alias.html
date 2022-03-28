@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Assinaturas</title>
+  <link rel="stylesheet" href="/css/style-assinatura-alias.css">
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+  <section class="container">
+    <!-- Preencha os dados -->
+    <div class="colunas">
+      <div class="dados-assinatura">
+        <div class="titulo-formulario">
+          <h3> Preencha os dados abaixo:</h3>
+        </div>
+
+        <div>
+          <input type="nome" oninput="capturar()" class="" id="campoNome" aria-label="" placeholder="Nome">
+        </div>
+        <div>
+          <input type="nome" oninput="capturar()" class="" id="campoCargo" aria-label="" placeholder="Cargo">
+        </div>
+        <div>
+          <input type="nome" oninput="capturar()" class="" id="campoTelefone" aria-label="" placeholder="telefone">
+        </div>
+        <div>
+          <input type="nome" oninput="capturar()" class="" id="campoEmail" aria-label="" placeholder="E-mail">
+        </div>
+        <div>
+          <input type="nome" oninput="capturar()" class="" id="campoSite" aria-label="" placeholder="Site">
+        </div>
+        <div>
+          <p class="aviso">Agora clique na assinatura exibida ao lado, para selecionar <br> Para copiar clique no Botão "Copiar HTML"</p>
+        </div>
+      </div>
+
+      <section class="assinatura-final" id='modelo-email-final' style="user-select: all">
+
+        <!-- modelo email padrao -->
+        <table border="0" cellpadding="0" cellspacing="0" style="min-width: 500px; margin: 0px 0px 10px 0; background-color:#FFFFFF; border: 2px solid; border-color: #005CAA ; border-radius: 6px">
+          <tr>
+            <td>
+              <table style="padding: 10px 0 10px 0">
+                <tbody class="conteudoTabela">
+                  <tr>
+                    <td id="outNome" style="font-family:Calibri, Helvetica, sans-serif;font-size:20px;font-style:bold;line-height:18px;font-weight:700;padding-left: 25px;color:#005fb6;">Nome completo</td>
+                  </tr>
+                  <tr style="">
+                    <td id='outCargo' style="font-family:Calibri, Helvetica, sans-serif;font-size:14px;font-style:normal;line-height:20px;font-weight:500;color:#005fb6; padding-left: 25px;border-bottom: solid 2px #005fb6;s ">Cargo</td>
+                  </tr>
+                  <tr>
+                    <td style="border-collapse:collapse;padding-bottom:10px;"></td>
+                  </tr>
+                  <tr>
+                    <td id='outTelefone' style="font-family:Calibri, Helvetica, sans-serif;font-size:16.0px;font-style:normal;line-height:20px;font-weight:500;padding-left: 25px;color:#005fb6;">telefone</td>
+                  </tr>
+                  <tr>
+                    <td id='outEmail' style="font-family:Calibri, Helvetica, sans-serif;font-size:16.0px;font-style:normal;line-height:20px;font-weight:500;padding-left: 25px;color:#005fb6;">email</td>
+                  </tr>
+                  <tr>
+                    <td id='outSite' style="font-family:Calibri, Helvetica, sans-serif;font-size:16.0px;font-style:normal;line-height:20px;font-weight:500;padding-left: 25px;color:#005fb6;">site</td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+
+            <!-- imagem empresa-->
+
+            <td>
+              <table border=" 0" cellpadding="0" cellspacing="0" style="display:block; float:right;">
+                <tbody>
+                  <tr>
+                    <td><img alt="logo Alias" src="https://www.aliasnet.com.br/wp-content/uploads/2022/02/logo-alias-assinatura2.png"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+
+          <!-- imagem banner -->
+
+          <table border="0" cellpadding="0" cellspacing="0">
+            <tbody>
+              <td>
+                <img style="border-radius: 6px" src="https://www.aliasnet.com.br/wp-content/uploads/2022/02/assista_mais_2.png" alt="assista mais">
+              </td>
+            </tbody>
+          </table>
+      </section>
+
+    </div>
+  </section>
+
+
+  <div class="areaDemo">
+    <button class="btn-copiar" id="btnCopy">Copiar HTML</button>
+  </div>
+
+
+
+
+</body>
+
+</html>
