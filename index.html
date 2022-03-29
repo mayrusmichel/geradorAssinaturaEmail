@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gerador de Assinaturas</title>
+  <link rel="stylesheet" href="/style-assinatura-alias.css">
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+
+<body>
+  <!-- Preencha os dados -->
+  <div class="titulo-formulario">
+    <h3> Preencha os dados abaixo:</h3>
+  </div>
+  <div class="colunas">
+    <div class="">
+      <div class>
+        <div>
+          <input type="text" oninput="capturar()" class="" id="campoNome" aria-label="" placeholder="Nome">
+        </div>
+        <div>
+          <input type="text" oninput="capturar()" class="" id="campoCargo" aria-label="" placeholder="Cargo">
+        </div>
+        <div>
+          <input type="tel" oninput="capturar()" class="" id="campoTelefone" aria-label="" placeholder="Telefone">
+        </div>
+        <div>
+          <input type="text" oninput="capturar()" class="" id="campoEmail" aria-label="" placeholder="E-mail">
+        </div>
+        <div>
+          <select id="">
+            <!-- O value de cada uma das opcoes sera usado (ao inves do que o usuario digitou) -->
+            <option value="Banner-Assista-Mais">Banner Oferta 01</option>
+          </select>
+        </div>
+
+        <div>
+          <p class="aviso">Verifique a assinatura ao lado e clique no botão abaixo. <br> Cole (CTRL+V) no campo assinatura em seu gerenciador de email.</p>
+        </div>
+
+        <div class="areaDemo">
+          <button class="btn-copiar" id="btnCopy1">Copiar Assinatura</button>
+        </div>
+      </div>
+    </div>
+
+    <section width:="30%" class="assinatura-final" id='modelo-email-final'>
+
+      <!-- modelo email padrao -->
+      <table cellpadding="0" cellspacing="0" style="margin:10px; vertical-align: middle" class="conteudoTabela">
+        <td>
+          <a href="https://www.aliasnet.com.br/">
+            <img style="width: 170px;" src="https://www.aliasnet.com.br/wp-content/uploads/2022/02/logo-alias-assinatura.png" />
+          </a>
+        </td>
+
+        <td>
+          <h3 style="padding: 0 0 0 0; font-family:Calibri, Helvetica, sans-serif;font-size:20px;font-style:bold;font-weight:700;color:#005fb6; white-space: nowrap; margin-left:30px;">
+            <span id="outNome">Nome</span>
+          </h3>
+          <p style="font-family:Calibri, Helvetica, sans-serif;font-size:14px;font-style:normal; font-weight:500;color:#005fb6; border-bottom: solid 3px #005fb6; white-space: nowrap; margin-left:30px;">
+            <span id="outCargo">Cargo</span>
+          </p>
+          <p style="padding: 8px 0 0 0">
+            <span id="outTelefone" href="" target=" _blank" style="font-family:Calibri, Helvetica, sans-serif;font-size:16.0px;font-style:normal;font-weight:500; color:#005fb6; white-space: nowrap; margin-left:30px;">telefone</span>
+          </p>
+          <p style="padding: 0 0 0 0">
+            <span id="outEmail" href="" target=" _blank" style="font-family:Calibri, Helvetica, sans-serif;font-size:16.0px;font-style:normal; font-weight:500; color:#005fb6; white-space: nowrap; margin-left:30px;">email</span>
+          </p>
+          <p style="padding: 6px 0 0 0">
+            <span id="" href="" target=" _blank" style="font-family:Calibri, Helvetica, sans-serif;font-size:16.0px;font-style:normal;line-height:; font-weight:500; color:#005fb6; white-space: nowrap; margin-left:30px;">www.aliasnet.com.br</span>
+          </p>
+        </td>
+
+        <!-- imagem banner -->
+
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tbody>
+            <td>
+              <a href="https://assistamais.net.br/">
+                <img style="border-radius: 6px" src="https://www.aliasnet.com.br/wp-content/uploads/2022/02/assista_mais_2.png" alt="assista mais">
+              </a>
+            </td>
+          </tbody>
+        </table>
+    </section>
+  </div>
+
+
+
+
+  <script type="text/javascript" src="/scripts/script.js"></script>
+
+</body>
+
+</html>
