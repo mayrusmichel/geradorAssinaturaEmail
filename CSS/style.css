@@ -1,0 +1,79 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+   background: linear-gradient(86deg, rgba(5,33,61,0.99) 40%, rgba(14,78,145,0.8) 73%, rgba(31,121,213,0.5) 100%),
+   url(/img/v617batch2-bb-01-technology.jpg);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+  height: px;
+  background-position: center;
+  color: #ffffff;
+  font-family: "Nunito", Helvetica, Arial, sans-serif;
+ }
+
+    h1{
+  padding-bottom: 20px;
+  font-size: 60px;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 1;
+  text-align: left;
+}
+
+.email-icon{
+  width: 400px;
+  margin: px;
+}
+
+.titulo p{
+  text-align: left;
+  font-weight: 200;
+  font-size: 18px;
+  
+ 
+}
+
+.logo{
+  background-color: rgba(255,255,255, 1);
+  width:220px;
+  padding: 4px; 
+  border-radius: 5px;
+  border: 6px solid rgba(255,255,255, 0.2);
+  cursor: pointer;
+  box-shadow: 5px 3px 15px -6px rgba(0,0,0,0.73);
+}
+
+.logo:hover {
+  border: 4px solid #4f9ff3;
+  transition: all .4s ease-in-out; 
+  transform: scale(1.25); 
+}
+
+.empresas div{
+    margin: 20px;
+    }
+
+.empresas img{
+    max-width: 220px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .titulo-espaco{
+   margin-right: 020px;
+ }
+ .rodape{
+  text-align: right;
+  padding:20px;
+}
+
+  
+  
+
+
