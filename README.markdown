@@ -17,6 +17,6 @@ Grato \°/
 
 # Home - assinaturas
 
-https://mayrusmichel.github.io/assinaturaemail-v1/
+https://mayrusmichel.github.io/geradorAssinaturaEmail/
 
 
